@@ -1,7 +1,10 @@
 title: Jeongha Park
+tagline: Jeongha의 블로그
 description: 블로그 설명
 lang: en
 timezone: Asia/Seoul
+theme_mode: dark
+toc: True
 github:
   username: jeongha-03
 type: instagram
