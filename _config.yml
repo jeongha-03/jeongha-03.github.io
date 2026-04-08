@@ -4,7 +4,7 @@ description: 블로그 설명
 lang: en
 timezone: Asia/Seoul
 theme_mode: dark
-toc: True
+toc: true
 github:
   username: jeongha-03
 type: instagram
