@@ -1,4 +1,9 @@
-title: 블로그 제목
+title: Jeongha Park
 description: 블로그 설명
 lang: en
 timezone: Asia/Seoul
+github:
+  username: jeongha-03
+type: instagram
+icon: 'fab fa-instagram'
+url: 'https://www.instagram.com/__jeongha_/'
