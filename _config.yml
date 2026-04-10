@@ -1,86 +1,60 @@
-# ===========================
-#  GitHub Pages _config.yml
-# ===========================
-
-# ----- 사이트 기본 정보 -----
 title: "Jeongha"
 description: "사이트에 대한 간단한 설명을 입력하세요."
+
 author: "박정하"
 email: "emilyjungha@gmail.com"
-url: "https://jeongha-03.github.io"
 
-# ----- 언어 & 인코딩 -----
 lang: "ko"
+timezone: Asia/Seoul
 encoding: "utf-8"
 
-# ----- 테마 -----
-# GitHub Pages 지원 테마 중 선택 (아래 중 하나만 활성화)
+url: "https://jeongha-03.github.io"
+baseurl: ""
+
 remote_theme: byanko55/jekyll-theme-satellite
+
+logo_img: "/assets/img/favicon.webp"
+profile_img: "/assets/img/profile.webp"
+
+github_username: "jeongha-03"
+instagram_username: "__jeongha_"
 
 collections:
   pages:
     output: true
     permalink: /:path.html
 
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      date: "1900-01-01"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "박정하"
 
-# ----- 빌드 설정 -----
 markdown: kramdown
 highlighter: rouge
 permalink: /posts/:year/:month/:day/:title/
 
 kramdown:
   input: GFM
+  hard_wrap: true
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     css_class: "highlight"
 
-# ----- 플러그인 -----
 plugins:
-  - jekyll-feed            # RSS 피드 자동 생성
-  - jekyll-sitemap         # sitemap.xml 자동 생성
-  - jekyll-seo-tag         # SEO 메타태그 자동 삽입
-  - jekyll-paginate        # 페이지네이션
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
-# ----- 페이지네이션 -----
-paginate: 5                             # 페이지당 포스트 수
-paginate_path: "/page:num/"
-
-# ----- 포스트 기본값 -----
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "이름"
-      comments: true
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-
-# ----- 소셜 링크 (minima 테마) -----
-minima:
-  social_links:
-    - { platform: github,    user_url: "https://github.com/username" }
-    - { platform: twitter,   user_url: "https://twitter.com/username" }
-    - { platform: linkedin,  user_url: "https://www.linkedin.com/in/username" }
-
-# ----- 내비게이션 메뉴 -----
-header_pages:
-  - about.md
-  - blog.md
-  - contact.md
-
-# ----- 댓글 (Disqus 사용 시) -----
-# disqus:
-#   shortname: "your-disqus-shortname"
-
-# ----- Google Analytics -----
-# google_analytics: "G-XXXXXXXXXX"
-
-# ----- 빌드 제외 파일/폴더 -----
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -91,10 +65,6 @@ exclude:
   - README.md
   - "*.sh"
 
-# ----- 포함 파일 -----
 include:
   - _pages
   - .htaccess
-
-# ----- 타임존 -----
-timezone: Asia/Seoul
