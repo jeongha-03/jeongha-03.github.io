@@ -15,34 +15,6 @@ permalink: /
 
 <div class="category-box">
 
-<style>
-.category-box {
-  margin-top: 30px;
-  padding: 30px;
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.7);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.category-box a {
-  text-decoration: none;
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: #333;
-  padding: 10px 14px;
-  border-radius: 12px;
-  transition: all 0.2s ease;
-}
-
-.category-box a:hover {
-  background-color: rgba(0, 0, 0, 0.05);
-  transform: translateX(5px);
-}
-</style>
-
 <a href="/categories/development.html">🤍 개발</a>  
 <a href="/categories/ctf.html">🩷 CTF / Wargame</a>  
 <a href="/categories/bugbounty.html">🧡 Bug Bounty</a>  
