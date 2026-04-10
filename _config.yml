@@ -3,12 +3,11 @@
 # ===========================
 
 # ----- 사이트 기본 정보 -----
-title: "내 사이트 제목"
+title: "Jeongha"
 description: "사이트에 대한 간단한 설명을 입력하세요."
-author: "이름"
-email: "your@email.com"
-url: "https://username.github.io"       # GitHub Pages 기본 URL
-baseurl: ""                              # 프로젝트 페이지라면 "/repo-name"
+author: "박정하"
+email: "emilyjungha@gmail.com"
+url: "https://jeongha-03.github.io"
 
 # ----- 언어 & 인코딩 -----
 lang: "ko"
@@ -16,12 +15,13 @@ encoding: "utf-8"
 
 # ----- 테마 -----
 # GitHub Pages 지원 테마 중 선택 (아래 중 하나만 활성화)
-theme: minima
-# remote_theme: jekyll/minima          # remote_theme 방식 사용 시
+remote_theme: byanko55/jekyll-theme-satellite
 
-# Minima 테마 스킨 설정
-minima:
-  skin: auto                            # auto | classic | dark | solarized | solarized-dark
+collections:
+  pages:
+    output: true
+    permalink: /:path.html
+
 
 # ----- 빌드 설정 -----
 markdown: kramdown
