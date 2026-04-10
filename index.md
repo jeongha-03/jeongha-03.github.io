@@ -15,15 +15,6 @@ permalink: /
 
 <div class="category-box">
 
-<a href="/categories/development.html">🤍 개발</a>  
-<a href="/categories/ctf.html">🩷 CTF / Wargame</a>  
-<a href="/categories/bugbounty.html">🧡 Bug Bounty</a>  
-<a href="/categories/blog.html">💛 블로그 / 기술문서</a>  
-<a href="/categories/papers.html">💚 논문 / 컨퍼런스</a>  
-<a href="/categories/cert.html">🩵 공모전 / 자격증</a>
-
-</div>
-
 <style>
 .category-box {
   margin-top: 30px;
@@ -51,3 +42,13 @@ permalink: /
   transform: translateX(5px);
 }
 </style>
+
+<a href="/categories/development.html">🤍 개발</a>  
+<a href="/categories/ctf.html">🩷 CTF / Wargame</a>  
+<a href="/categories/bugbounty.html">🧡 Bug Bounty</a>  
+<a href="/categories/blog.html">💛 블로그 / 기술문서</a>  
+<a href="/categories/papers.html">💚 논문 / 컨퍼런스</a>  
+<a href="/categories/cert.html">🩵 공모전 / 자격증</a>
+
+</div>
+
