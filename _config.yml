@@ -19,6 +19,10 @@ profile_img: "assets/img/IMG_9857.jpg"
 github_username: "jeongha-03"
 instagram_username: "__jeongha_"
 
+sass:
+  style: compressed
+
+
 collections:
   pages:
     output: true
