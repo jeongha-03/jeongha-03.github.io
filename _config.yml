@@ -72,3 +72,5 @@ exclude:
 include:
   - _pages
   - .htaccess
+  
+future: true
