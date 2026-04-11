@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "안녕하세요"
+date: "2026-04-12"
 categories: [기타]
 ---
 
