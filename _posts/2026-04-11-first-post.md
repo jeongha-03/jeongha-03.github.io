@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2026. 04. 12."
+title: "안녕하세요"
 category: 기타
 ---
 
